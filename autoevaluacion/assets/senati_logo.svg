@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" width="340" height="100">
+  <!-- Franja roja corporativa izquierda -->
+  <rect x="0" y="0" width="12" height="100" fill="#CC0000"/>
+
+  <!-- Texto SENATI en azul corporativo -->
+  <text x="24" y="68"
+        font-family="Arial Black, Arial, sans-serif"
+        font-weight="900"
+        font-size="62"
+        fill="#003087"
+        letter-spacing="2">SENATI</text>
+
+  <!-- Línea roja debajo del texto -->
+  <rect x="24" y="76" width="304" height="6" fill="#CC0000"/>
+
+  <!-- Texto institucional pequeño -->
+  <text x="24" y="96"
+        font-family="Arial, sans-serif"
+        font-weight="400"
+        font-size="11"
+        fill="#003087"
+        letter-spacing="0.5">Servicio Nacional de Adiestramiento en Trabajo Industrial</text>
+</svg>

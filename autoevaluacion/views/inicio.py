@@ -12,21 +12,28 @@ def vista_inicio(page: ft.Page, ir_a_instrucciones):
         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         expand=True,
         controls=[
-            ft.Icon(ft.Icons.SCHOOL, size=80, color=ft.Colors.BLUE_700),
+            # Logo de SENATI
+            ft.Image(
+                src="assets/senati_logo.svg",
+                width=280,
+                height=82,
+                fit=ft.BoxFit.CONTAIN,
+            ),
+            ft.Divider(height=18, color=ft.Colors.TRANSPARENT),
             ft.Text(
                 "Autoevaluación de Competencias",
-                size=28,
+                size=26,
                 weight=ft.FontWeight.BOLD,
                 text_align=ft.TextAlign.CENTER,
                 color=ft.Colors.BLUE_900,
             ),
             ft.Text(
-                "SENATI — Aprendizaje Dual",
-                size=16,
+                "Aprendizaje Dual",
+                size=15,
                 color=ft.Colors.BLUE_GREY_600,
                 text_align=ft.TextAlign.CENTER,
             ),
-            ft.Divider(height=30, color=ft.Colors.TRANSPARENT),
+            ft.Divider(height=24, color=ft.Colors.TRANSPARENT),
             ft.Text(
                 "Esta herramienta te permitirá conocer tu nivel actual\n"
                 "en las 7 competencias clave y recibir recomendaciones\n"

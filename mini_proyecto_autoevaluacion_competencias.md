@@ -4,7 +4,7 @@
 
 Desarrollo de una pequeña aplicación en **Flet o Kivy** para la autoevaluación de competencias de los estudiantes de aprendizaje dual de SENATI.
 
-La aplicación permitirá que el estudiante responda un cuestionario basado en las **7 competencias**, obtenga sus resultados y reciba recomendaciones de mejora.
+La aplicación permitirá que el estudiante responda un cuestionario basado en las **7 competencias**, obtenga un perfil gráfico de sus resultados y reciba recomendaciones de mejora.
 
 ## Objetivo
 
@@ -21,10 +21,11 @@ Desarrollar una herramienta sencilla e interactiva que permita al estudiante ide
 | 5 | **Crear el proyecto** | Configurar la aplicación utilizando Flet o Kivy y organizar la estructura del proyecto. |
 | 6 | **Implementar el cuestionario** | Programar las preguntas, opciones de respuesta, navegación y validaciones. |
 | 7 | **Implementar el cálculo de resultados** | Procesar las respuestas y obtener el nivel de cada una de las 7 competencias. |
-| 8 | **Crear recomendaciones** | Relacionar los resultados obtenidos con recomendaciones de mejora para cada competencia. |
-| 9 | **Implementar el reporte final** | Mostrar un resumen con puntajes y recomendaciones personalizadas. |
-| 10 | **Realizar pruebas** | Probar diferentes combinaciones de respuestas y verificar que los resultados sean correctos. |
-| 11 | **Documentar el proyecto** | Elaborar el manual de usuario, descripción técnica y conclusiones del mini-proyecto. |
+| 8 | **Generar el perfil gráfico** | Mostrar los resultados mediante un gráfico, por ejemplo, un gráfico de radar con las 7 competencias. |
+| 9 | **Crear recomendaciones** | Relacionar los resultados obtenidos con recomendaciones de mejora para cada competencia. |
+| 10 | **Implementar el reporte final** | Mostrar un resumen con puntajes, gráfico y recomendaciones personalizadas. |
+| 11 | **Realizar pruebas** | Probar diferentes combinaciones de respuestas y verificar que los resultados sean correctos. |
+| 12 | **Documentar el proyecto** | Elaborar el manual de usuario, descripción técnica y conclusiones del mini-proyecto. |
 
 ## Distribución por equipos
 
@@ -51,6 +52,7 @@ Desarrollar una herramienta sencilla e interactiva que permita al estudiante ide
 
 ### Equipo 4 — Resultados
 
+- Implementar el gráfico de perfil.
 - Crear el sistema de recomendaciones.
 - Implementar el resumen final.
 - Integrar los resultados con la interfaz.
@@ -70,5 +72,6 @@ Una aplicación funcional en **Flet o Kivy** que permita:
 1. Iniciar una autoevaluación.
 2. Responder un cuestionario sobre las 7 competencias.
 3. Calcular automáticamente los resultados.
-4. Identificar fortalezas y aspectos de mejora.
-5. Presentar recomendaciones personalizadas.
+4. Mostrar un perfil gráfico de las competencias.
+5. Identificar fortalezas y aspectos de mejora.
+6. Presentar recomendaciones personalizadas.

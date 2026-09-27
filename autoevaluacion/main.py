@@ -59,4 +59,4 @@ def main(page: ft.Page):
     ir_a_inicio()
 
 
-ft.run(main)
+ft.run(main, assets_dir="assets")
